@@ -81,19 +81,22 @@ a:active {
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
-    color: red;
+    text-transform: uppercase;
+    color: #C42127;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    color: blue;
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 2.5em;
+    color: black;
 }
 
 h3 {
-    font-family: ;
-    font-size: 1.5em;
-    color: orange;
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 2em;
+    color: black;
 }
 
 p1 {
@@ -104,5 +107,20 @@ p1 {
 
 p {
     font-family: 'Oxygen', sans-serif;
+    text-transform: none;
     color: black;
+}
+
+button {
+    background: #BAAC8C;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+button:hover {
+    background: gray;
+   color: white;
 }
