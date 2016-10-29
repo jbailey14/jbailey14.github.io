@@ -1,0 +1,69 @@
+/* Link Effects */
+a:link,
+a:visited{
+    color: #BAAC8C;
+    text-decoration: none;
+}
+
+a:focus {
+    background: #C42127;
+}
+
+a:hover {
+    background: #C42127;
+    margin-left: 3px;
+}
+
+a:active {
+    background: #F4AF1E;
+}
+
+
+body {
+  background: url("../Style-Tile/img/texture1.png");
+}
+
+/* Headings */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #C42127;
+    background: #B2C5D3;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 2.5em;
+    color: #416B7A;
+    background: #B2C5D3;
+}
+
+
+/*  Picture of me  */
+.me {
+    padding-top: 0em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+    position: relative;
+    width: 83%
+}
+
+
+/* Navigation */
+.primary-nav {
+    font-family: 'Oxygen', cursive;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* Paragraphs */
+p {
+    font-family: 'Oxygen', cursive;
+    text-transform: none;
+    letter-spacing: -.02em;
+    color: white;
+}
