@@ -19,9 +19,11 @@ a:active {
 }
 
 
+/* Background img */
 body {
   background: url("../Style-Tile/img/texture1.png");
 }
+
 
 /* Headings */
 h1 {
@@ -40,20 +42,31 @@ h2 {
     background: #B2C5D3;
 }
 
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-size: 2em;
+    color: #BAAC8C;
+}
+
 
 /*  Picture of me  */
 .me {
-    padding-top: 0em;
+    position: center;
+    padding-top: 2em;
     padding-left: 4em;
     padding-right: 4em;
     padding-bottom: 2em;
     position: relative;
-    width: 83%
+    width: 75%
 }
 
 
 /* Navigation */
 .primary-nav {
+    border: solid #BAAC8C 3px;
+    margin: 4px;
+    display: inline;
     font-family: 'Oxygen', cursive;
     font-size: 14px;
     font-weight: 400;
@@ -65,5 +78,5 @@ p {
     font-family: 'Oxygen', cursive;
     text-transform: none;
     letter-spacing: -.02em;
-    color: white;
+    color: #B2C5D3;
 }
