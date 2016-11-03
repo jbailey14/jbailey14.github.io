@@ -10,7 +10,7 @@ a:focus {
 }
 
 a:hover {
-    background: #C42127;
+    color: #C42127;
     margin-left: 3px;
 }
 
@@ -42,6 +42,13 @@ h2 {
     background: #B2C5D3;
 }
 
+h2:hover {
+    color:#C42127;
+    text-shadow: 5px 5px 10px black;
+    margin-left: 4px;
+    transition: all ease .5s;
+}
+
 h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: none;
@@ -49,10 +56,18 @@ h3 {
     color: #BAAC8C;
 }
 
+h4{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    text-transform: none;
+    font-size: 1em;
+    color: #B2C5D3;
+}
+
 
 /*  Picture of me  */
 .me {
-    position: center;
+    position: middle;
     padding-top: 2em;
     padding-left: 4em;
     padding-right: 4em;
@@ -63,15 +78,36 @@ h3 {
 
 
 /* Navigation */
-.primary-nav {
-    border: solid #BAAC8C 3px;
-    margin: 4px;
-    display: inline;
-    font-family: 'Oxygen', cursive;
-    font-size: 14px;
-    font-weight: 400;
+.nav {
+  list-style: none;
+  font-family: 'Oxygen', cursive;
+  font-size: 14px;
+  font-weight: 400;
 }
 
+.nav li {
+  float: left;
+}
+
+.nav > li a {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #BAAC8C;
+  border-bottom: 1px solid #eee;
+  transition: all ease .5s;
+}
+
+.nav:hover > li a {
+  opacity: .5;
+  transition: all ease .5s;
+}
+
+.nav > li:hover a {
+  opacity: 1;
+  color: #C42127;
+  border-color: #C42127;
+}
 
 /* Paragraphs */
 p {
