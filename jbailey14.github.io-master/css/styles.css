@@ -110,6 +110,23 @@ h4{
 }
 
 /* Paragraphs */
+
+section {
+  background: none;
+  border-radius: 3%;
+  padding: 10px 32px 10px 10px;
+  margin-bottom: 20px;
+  list-style: none;
+  width: 300px;
+}
+
+section:hover {
+  background: gray;
+  margin-left: 2em;
+  box-shadow: 5px 5px 10px black;
+    transition: all ease .7s;
+}
+
 p {
     font-family: 'Oxygen', cursive;
     text-transform: none;
