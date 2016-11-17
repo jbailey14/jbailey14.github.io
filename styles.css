@@ -21,7 +21,7 @@ a:active {
 
 /* Background img */
 body {
-  background: url("../Style-Tile/img/texture1.png");
+  background: url("img/texture1.png");
 }
 
 
@@ -52,7 +52,6 @@ h3 {
 
 /*  Picture of me  */
 .me {
-    position: center;
     padding-top: 2em;
     padding-left: 4em;
     padding-right: 4em;
