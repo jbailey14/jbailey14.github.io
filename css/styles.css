@@ -11,7 +11,7 @@ a:focus {
 
 a:hover {
     color: #C42127;
-    margin-left: 3px;
+    margin-left: 0.1875em;
 }
 
 a:active {
@@ -21,7 +21,7 @@ a:active {
 
 /* Background img */
 body {
-  background: url("../Style-Tile/img/texture1.png");
+  background: url("../img/texture1.png");
 }
 
 
@@ -44,8 +44,8 @@ h2 {
 
 h2:hover {
     color:#C42127;
-    text-shadow: 5px 5px 10px black;
-    margin-left: 4px;
+    text-shadow: 0.125em 0.125em 0.3em black;
+    margin-left: 0.25em;
     transition: all ease .5s;
 }
 
@@ -67,21 +67,40 @@ h4{
 
 /*  Picture of me  */
 .me {
-    position: middle;
-    padding-top: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
-    padding-bottom: 2em;
+    background: rgba(186, 172, 140, 0.25);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
     position: relative;
-    width: 75%
+    width: 70%;
+    border-radius: .45em;
+}
+
+.me2 {
+    background: rgba(186, 172, 140, 0.25);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+    position: relative;
+    width: 37%;
+    border-radius: .45em;
 }
 
 
 /* Navigation */
+div {
+    text-align: center;
+}
+
 .nav {
+  text-align: center;
+  position: relative;
+  display: inline-block;
   list-style: none;
   font-family: 'Oxygen', cursive;
-  font-size: 14px;
+  font-size: .85em;
   font-weight: 400;
 }
 
@@ -91,6 +110,7 @@ h4{
 
 .nav > li a {
   display: block;
+  background: rgba(133, 0, 0, 0.14);
   padding: 12px 18px;
   text-decoration: none;
   color: #BAAC8C;
@@ -99,7 +119,7 @@ h4{
 }
 
 .nav:hover > li a {
-  opacity: .5;
+  opacity: .55;
   transition: all ease .5s;
 }
 
@@ -111,24 +131,26 @@ h4{
 
 /* Paragraphs */
 
-section {
+.pop-out {
   background: none;
-  border-radius: 3%;
-  padding: 10px 32px 10px 10px;
-  margin-bottom: 20px;
+  border-radius: .5em;
+  padding: .5em 2em 1em;
+  margin: 2em
   list-style: none;
-  width: 300px;
+  max-width: 31.25em;
+  text-align: left
 }
 
-section:hover {
-  background: gray;
+.pop-out:hover {
+  background: rgba(97, 97, 97, 0.48);
   margin-left: 2em;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0.3125em 0.3125em 0.625em black;
     transition: all ease .7s;
 }
 
 p {
     font-family: 'Oxygen', cursive;
+    font-size: 1em;
     text-transform: none;
     letter-spacing: -.02em;
     color: #B2C5D3;
