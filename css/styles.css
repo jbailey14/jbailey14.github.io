@@ -191,14 +191,10 @@ div {
 
 figure {
   background: rgba(97, 97, 97, 0.25);
-  /* Note: Figures have default 1em margin. Optionally override. */
   padding: 1em;
-  /* Set `flex-basis` to any value */
   flex: 1 0 400px;
   
-  /* Child & Also Parent   */
-  display: flex;
-  flex-flow: row wrap;
+  
   justify-content: center;
   align-items: space-around;
   border-radius: 2em;
@@ -208,13 +204,13 @@ figure {
 
 /* Specific Gallery Styling. Have Fun! */
 figure img {
-    width: 30%;
+    width: 25%;
     border-radius: 8px;
     padding: 10px;
 }
 
 figure p {
-    text-align: justify;
+    text-align: center;
 }
 
 /* Lightbox Overlay */
