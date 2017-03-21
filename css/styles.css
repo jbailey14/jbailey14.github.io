@@ -101,6 +101,7 @@ h3 {
     text-transform: none;
     font-size: 2em;
     color: #BAAC8C;
+    text-align: center;
 }
 
 h4{
@@ -121,7 +122,7 @@ h4{
     margin-right: auto;
     padding: .5em;
     position: relative;
-    width: 70%;
+    width: 50%;
     border-radius: .45em;
 }
 
@@ -132,7 +133,7 @@ h4{
     margin-right: auto;
     padding: .5em;
     position: relative;
-    width: 37%;
+    width: 25%;
     border-radius: .45em;
 }
 
